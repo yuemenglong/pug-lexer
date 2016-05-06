@@ -1,5 +1,5 @@
 {
-  "name": "pug-lexer",
+  "name": "yy-pug-lexer",
   "version": "1.0.1",
   "description": "The pug lexer (takes a string and converts it to an array of tokens)",
   "keywords": [
@@ -21,8 +21,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pugjs/pug-lexer.git"
+    "url": "git+https://github.com/yuemenglong/pug-lexer.git"
   },
   "author": "ForbesLindesay",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  }
 }
