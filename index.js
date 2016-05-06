@@ -1034,7 +1034,7 @@ Lexer.prototype = {
           val = val.trim();
           if (val) {
             this.incrementColumn(-val.length);
-            this.assertExpression(val)
+            //this.assertExpression(val)
             this.incrementColumn(val.length);
           }
 
