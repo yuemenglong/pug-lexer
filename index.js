@@ -504,7 +504,7 @@ Lexer.prototype = {
       tok.mustEscape = matchOfStringInterp[2] === '#';
       tok.buffer = true;
       tok.val = range.src;
-      this.assertExpression(range.src);
+      // this.assertExpression(range.src);
       this.tokens.push(tok);
 
       if (range.end + 1 < rest.length) {
