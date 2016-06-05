@@ -312,7 +312,7 @@ Lexer.prototype = {
       var tok = this.tok('interpolation', match.src);
       this.tokens.push(tok);
       this.incrementColumn(2); // '#{'
-      this.assertExpression(match.src);
+      //this.assertExpression(match.src);
 
       var splitted = match.src.split('\n');
       var lines = splitted.length - 1;
